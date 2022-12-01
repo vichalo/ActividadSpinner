@@ -1,0 +1,27 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:stretchColumns="0,1,2">
+    <TableRow>
+        <TextView android:text="Celda 1.1" />
+        <ImageView
+            android:id="@+id/imageViewTable"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            />
+        <TextView android:text="Celda 1.1" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageViewTable2"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            />
+        <TextView android:text="Celda 1.1" />
+        <TextView android:text="Celda 1.1" />
+    </TableRow>
+
+</TableLayout>
