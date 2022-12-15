@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFB47C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/register_form"
+        android:textColor="#2B207C"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:autofillHints="username"
+            android:inputType="text"
+            android:drawableStart="@android:drawable/btn_star"
+            android:hint="@string/username"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/name"
+            android:autofillHints="name"
+            android:inputType="text"
+            android:drawableStart="@android:drawable/btn_star"
+            android:hint="@string/name"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/mail"
+            android:autofillHints="emailAddress"
+            android:inputType="text"
+            android:drawableStart="@android:drawable/btn_star"
+            android:hint="@string/mail"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/phone"
+            android:autofillHints="phone"
+            android:inputType="phone"
+            android:drawableStart="@android:drawable/btn_star"
+            android:hint="@string/phone"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"/>
+        <GridLayout
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_marginTop="18dp"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/data_consent"
+                android:text="@string/data"
+                android:textSize="14sp"
+                android:backgroundTint="#ED7CFF"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="5"
+                android:padding="8dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                />
+            <TextView
+                android:id="@+id/data_policy"
+                android:text=""
+                android:layout_row="1"
+                android:layout_columnSpan="2"
+                android:layout_column="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </GridLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3a488d"
+        android:padding="12dp"
+        android:text="@string/submit"
+        android:textSize="16sp" />
+</LinearLayout>
+

@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Susin1</string>
+    <string name="ENSENDIO">ENSENDIO</string>
+    <string name="APAGAO">APAGAO\'</string>
+    <string name="Opción">curso aprobado?</string>
+    <string name="radio_check">radio-check</string>
+    <string name="edu">eduardo</string>
+    <string name="victor">victor</string>
+    <string name="david">dave</string>
+    <string name="submit">submit</string>
+    <string name="show_layouts">layouts</string>
+    <string name="extended_buttons">radio-check2</string>
+    <string name="register_form">Regístrate</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="mail">Mail</string>
+    <string name="phone">Phone</string>
+    <string name="data">SUBMIT</string>
 </resources>
