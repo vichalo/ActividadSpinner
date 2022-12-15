@@ -16,4 +16,12 @@
     <string name="mail">Mail</string>
     <string name="phone">Phone</string>
     <string name="data">SUBMIT</string>
+
+    <string-array name="valores_array">
+        <item>Elem1</item>
+        <item>Elem2</item>
+        <item>Elem3</item>
+        <item>Elem4</item>
+        <item>Elem5</item>
+    </string-array>
 </resources>
